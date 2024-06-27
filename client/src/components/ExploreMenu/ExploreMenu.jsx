@@ -25,6 +25,7 @@ const ExploreMenu = ({ category, setCategory }) => {
               <img
                 src={item.menu_image}
                 alt=""
+                // to display active class on food image on click //
                 className={category === item.menu_name ? "active" : ""}
               />
               <p>{item.menu_name}</p>
